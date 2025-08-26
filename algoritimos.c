@@ -58,11 +58,26 @@ float ex4(int nota1, int nota2, int nota3, int operacao){
 }
 
 int ex5(int n){
-    int res = 0;
-    for(int i=n; i>0; i--){
-        res += n * i;
+    int res = 1;
+    for(int i=n; i>=1; i--){
+        res = res * i;
     }
     return printf("%d fatorado resulta em: %d", n, res);
+}
+
+int ex6(int n){
+    for(int i = 2; i < n/2; i++){
+        if(n % i == 0){
+            return -1;
+        }
+    }
+    return 0;
+}
+
+int ex7(int n1, int n2, int n3){
+    int media;
+    media = (n1 + n2 + n3) / 3;
+    return media;
 }
 
 int main(){
@@ -114,6 +129,22 @@ int main(){
         printf("Digite um numero inteiro positivo: ");
         scanf("%d", &n);
         ex5(n);
+        }
+        case 6:
+        {
+        int n;
+        printf("Digite um numero inteiro positivo: ");
+        scanf("%d", &n);
+        int res = ex6(n);
+        printf("%d", res);
+        }
+        case 7:
+        {
+        int n1,n2,n3;
+        printf("Digite 3 numeros inteiros positivos: ");
+        scanf("%d %d %d", &n1, &n2, &n3);
+        int res = ex7(n1,n2,n3);
+        printf("%d", res);
         }
     }
 }
