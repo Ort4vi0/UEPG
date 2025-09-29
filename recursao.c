@@ -7,10 +7,6 @@
 //Lista: Recursao
 // Data:01/09/2025
 
-#include <stdio.h>
-
-// --- seus exercícios aqui (mantive iguais) ---
-
 int exercicio1(int n){
     if (n ==  1){
         return 1;
@@ -82,7 +78,6 @@ float exercicio12(float num) {
     return ((1 + ((num) * (num)))/num) + exercicio12(num - 1);
 }
 
-// -------- MAIN COM SWITCH ---------
 int main() {
     int escolha;
     printf("Escolha o exercicio (1-12): ");

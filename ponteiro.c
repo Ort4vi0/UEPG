@@ -3,6 +3,11 @@
 #include <math.h>
 #include <string.h>
 
+//NOME: OTAVIO DE QUADROS SONNENSTRAHL
+//RA: 25119823
+//Lista: Ponteiros
+// Data: 23/09/2025
+
 void Atividade1 (int *abela, int *balao){
     printf("%p\n", (void *)abela);
     printf("%p\n", (void *)balao);

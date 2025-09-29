@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
+//NOME: OTAVIO DE QUADROS SONNENSTRAHL
+//RA: 25119823
+//Lista: Procedimentos
+// Data: 18/09/2025
+
 void ImparPar(int v){
     if(v % 2 == 0){
         printf("O numero e PAR");
