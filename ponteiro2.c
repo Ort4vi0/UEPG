@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+//NOME: OTAVIO DE QUADROS SONNENSTRAHL
+//RA: 25119823
+//Lista: Ponteiros2
+// Data: 02/10/2025
+
+
 void Atividade1() {
     char str1[100], str2[100];
     printf("Digite a primeira string: ");
